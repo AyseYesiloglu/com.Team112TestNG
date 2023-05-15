@@ -1,4 +1,4 @@
-package tests.day01;
+package tests.day014_testNgFramework;
 
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
@@ -33,10 +33,10 @@ public class C03_NutellaTest  {
         Assert.assertTrue(actualResultText.contains(expectedResultWord));
 
         Driver.closeDriver();
+
         /*
 
         hello world
-
 
          */
 

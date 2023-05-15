@@ -1,4 +1,4 @@
-package tests.day01;
+package tests.day014_testNgFramework;
 
 import org.testng.annotations.Test;
 

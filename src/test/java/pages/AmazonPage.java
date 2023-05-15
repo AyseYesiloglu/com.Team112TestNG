@@ -24,5 +24,11 @@ public class AmazonPage {
     @FindBy(xpath = "//div[@class='sg-col-14-of-20 sg-col-18-of-24 sg-col s-breadcrumb sg-col-10-of-16 sg-col-6-of-12']")
     public WebElement amazonResultText;
 
+    @FindBy(xpath = "//div[@class='a-section a-spacing-base']")
+    public WebElement firstProductOfSearch;
+
+    @FindBy(xpath = "//span[@class='a-size-medium product-title-word-break product-title-resize']")
+    public WebElement ProductTitle;
+
 
 }
