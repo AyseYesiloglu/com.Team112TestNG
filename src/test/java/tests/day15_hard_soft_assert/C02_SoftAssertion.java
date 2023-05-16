@@ -14,9 +14,11 @@ public class C02_SoftAssertion {
 
         softAssert.assertTrue(6>10,"6 is not bigger than other one");
         System.out.println("after first assertion");
+
         softAssert.assertEquals(6,7,"They are not equal");
         System.out.println("after second assertion");
-        softAssert.assertTrue(6>9,"6 isnot bigger than 9");
+
+        softAssert.assertTrue(6>9,"6 is not bigger than 9");
         System.out.println("after third assertion");
 
         // to test soft assertions we need to use assertAll() method, if not, it won't test anything
