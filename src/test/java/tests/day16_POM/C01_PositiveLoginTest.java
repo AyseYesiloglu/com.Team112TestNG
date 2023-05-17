@@ -8,7 +8,7 @@ import utilities.ReusableMethods;
 
 public class C01_PositiveLoginTest {
 
-    @Test
+    @Test(groups = {"reg2","smoke"})
     public void test01(){
 
         // 1) go to the "https://www.qualitydemy.com/

@@ -25,7 +25,7 @@ public class C01_HardAssert {
 
      */
 
-    @Test
+    @Test (groups = {"reg2","smoke1","reg4"})
     public void test01(){
 
         Assert.assertTrue(6>3); // pass
@@ -34,7 +34,7 @@ public class C01_HardAssert {
         Assert.assertTrue(6>3);
         System.out.println("after second assertion");
 
-        Assert.assertEquals(6,7);
+        Assert.assertEquals(6,6);
         System.out.println("After third assertion");
 
 

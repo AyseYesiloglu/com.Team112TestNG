@@ -14,7 +14,7 @@ import java.util.List;
 
 public class C04_SoftAssert {
 
-    @Test
+    @Test(groups = "reg1")
     public void test01(){
 
         //Create a New Class: C03_SoftAssert

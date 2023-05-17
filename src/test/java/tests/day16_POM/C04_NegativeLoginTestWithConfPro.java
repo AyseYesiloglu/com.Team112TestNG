@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class C04_NegativeLoginTestWithConfPro {
 
-    @Test
+    @Test(groups = "smoke")
     public void invalidEmailAndValidPasswordLoginTest(){
 
         QualityDemyPage qualityDemyPage = new QualityDemyPage();
@@ -36,7 +36,7 @@ public class C04_NegativeLoginTestWithConfPro {
     }
 
 
-    @Test
+    @Test(groups = "smoke")
     public void validEmailAndInvalidPasswordLoginTest(){
 
         QualityDemyPage qualityDemyPage = new QualityDemyPage();
@@ -64,7 +64,7 @@ public class C04_NegativeLoginTestWithConfPro {
     }
 
 
-    @Test
+    @Test(groups = "smoke")
     public void InvalidEmailAndInvalidPasswordLoginTest(){
 
         QualityDemyPage qualityDemyPage = new QualityDemyPage();
@@ -88,7 +88,7 @@ public class C04_NegativeLoginTestWithConfPro {
         //6) test that user should not be able to login
         Assert.assertTrue(qualityDemyPage.enterYourCredText.isDisplayed());
 
-        Driver.closeDriver();
+        Driver.quitDriver();
     }
 
 

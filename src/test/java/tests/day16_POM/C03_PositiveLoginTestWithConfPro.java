@@ -9,7 +9,7 @@ import utilities.Driver;
 
 public class C03_PositiveLoginTestWithConfPro {
 
-    @Test
+    @Test(groups = "smoke")
     public void positiveLoginTest(){
         // 1) go to the "https://www.qualitydemy.com/
         /*

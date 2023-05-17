@@ -9,7 +9,7 @@ import utilities.ReusableMethods;
 
 public class C03_SoftAssert {
 
-    @Test
+    @Test(groups = "reg2")
     public void test01(){
 
         // amazon.com
@@ -76,8 +76,6 @@ public class C03_SoftAssert {
 
          ReusableMethods.waitFor(3); // same methods // I would prefer creating method where I am planing to call
                     // it. So intelij will automatically arrange all data types.
-         ReusableMethods.waitfor2(3); // same methods
-
 
         Driver.closeDriver();
 
