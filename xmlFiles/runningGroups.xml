@@ -26,6 +26,9 @@
         <packages>
             <package name="tests.day014_testNgFramework"></package>
             <package name="tests.day15_hard_soft_assert"></package>
+
+<!--            If you want to search these group names under all packages : -->
+<!--            <package name="tests.*"></package>-->
             
             
         </packages>

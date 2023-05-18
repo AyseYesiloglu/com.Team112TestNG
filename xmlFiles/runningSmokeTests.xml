@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Smoke Test">
+<!--    If there is an error in the smoke test, without wasting any time you should inform the teamlead, po,so (everybody)-->
 
     <test name="SmokeTest will be executed">
 
