@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Paralel tests" parallel="tests" thread-count="2">
+
+    <test name="Paralel testing according to the tests1">
+
+        <classes>
+            <class name="tests.day16_POM.C02_NegativeLoginTest"></class>
+            <class name="tests.day16_POM.C01_PositiveLoginTest"></class>
+
+
+        </classes>
+
+
+    </test>
+
+    <test name="Paralel testing according to the tests2">
+
+        <classes>
+            <class name="tests.day16_POM.C03_PositiveLoginTestWithConfPro"></class>
+            <class name="tests.day16_POM.C04_NegativeLoginTestWithConfPro"></class>
+
+        </classes>
+
+    </test>
+
+
+
+</suite>
