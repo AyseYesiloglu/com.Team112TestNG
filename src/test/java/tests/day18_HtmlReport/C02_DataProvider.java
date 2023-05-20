@@ -23,6 +23,8 @@ public class C02_DataProvider {
     3) then we should create a method to provide data (we can right click on the data provider value to create it)
     4) we should enter all the data in a two-dimensional object array and we should return the array
 
+     **** when we use a lot of data values in our test it is called DDT (data driven test)
+
      */
 
     @DataProvider
